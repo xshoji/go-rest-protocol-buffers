@@ -148,3 +148,8 @@ curl -X DELETE http://localhost:8080/v1/users/1
 
 > Usage ｜ grpc-gateway  
 > https://grpc-ecosystem.github.io/grpc-gateway/docs/usage.html
+
+**Validation**
+
+> envoyproxy/protoc-gen-validate： protoc plugin to generate polyglot message validators  
+> https://github.com/envoyproxy/protoc-gen-validate
