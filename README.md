@@ -1,6 +1,6 @@
 ## About
 
-Implementation of rest api by go based on [Protocol Buffers](https://developers.google.com/protocol-buffers).
+Implementation of rest api by go based on [Protocol Buffers](https://developers.google.com/protocol-buffers) (proto3).
 
 This api is implemented using [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway).
 
@@ -28,7 +28,7 @@ go run cmd/main/main.go
 
 ### Define proto file
 
-Create sample.proto in `/proto`.
+Create and Define user.proto in `./proto/user.proto`.
 
 > Language Guide (proto3)  ｜  Protocol Buffers  ｜  Google Developers  
 > https://developers.google.com/protocol-buffers/docs/proto3
@@ -41,7 +41,7 @@ Create sample.proto in `/proto`.
 
 ### Implement service
 
-Implement sample.pb.go interfaces in `/proto/impl`.
+Implement user.pb.go interfaces in `./usersapi/impl/user.go`.
 
 ```
 package proto_impl
